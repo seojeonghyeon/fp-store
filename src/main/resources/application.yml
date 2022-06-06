@@ -1,0 +1,13 @@
+spring:
+  datasource:
+#    Local DEV Set
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/fpstoredb
+    username: root
+    password: '00000000'
+
+#   PRD, STG Set
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    url: jdbc:mariadb://172.18.0.7:3306/fpstoredb
+#    username: root
+#    password: '00000000'
